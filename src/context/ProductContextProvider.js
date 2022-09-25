@@ -13,7 +13,6 @@ const ProductContextProvider = ({children}) => {
         const fechAPI = async () =>{
                 setProducts(await getProducts());
         }
-
         fechAPI();
     }, []);
 
